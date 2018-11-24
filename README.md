@@ -39,7 +39,7 @@ https://www.aliexpress.com/item/Free-Shipping-140pcs-in-one-package-convenient-N
 Optional: wire strippers, heat shrink tubing, nail polish
 
 SIDENOTE EXPLANATION FOR THE NERDS:
-A brief explanation of how I am using NPN transistors.  NPN Transistors have 3 pins, usually (with the flat side facing you) they are the collector, the base and the collector.  The base acts as a kind of multiplier for whatever is coming into the collector, and the result comes out of the emitter.  In this case I am using it as a switch for powering both the Soil Moisture Sensor and the Water Pump so as to conserve energy.  This also helps extend the life of the Soil Moisture Sensor as running electrical current causes oxidation of the sensors and eventually rust.  As you will see the code sets the pin to HIGH when we want the component to be powered.
+A brief explanation of how I am using NPN transistors.  NPN Transistors have 3 pins, usually (with the flat side facing you) they are the collector, the base and the emitter.  The base acts as a kind of multiplier for whatever is coming into the collector, and the result comes out of the emitter.  In this case I am using it as a switch for powering both the Soil Moisture Sensor and the Water Pump so as to conserve energy.  This also helps extend the life of the Soil Moisture Sensor as running electrical current causes oxidation of the sensors and eventually rust.  As you will see the code sets the pin to HIGH when we want the component to be powered.
 
 
 
